@@ -1,8 +1,8 @@
 # 4k20k Macro Keypad 
 
-![4k20k](4k20k.jpg)
-
 *4k20k is a 4x5 macro keypad featuring 4 rotary encoders for enhanced functionality and customization, running on a TeensyLC*
+
+![4k20k](https://i.imgur.com/BRK30Ey.jpg)
 
 * Keyboard Maintainer: [Diogo Sergio](https://github.com/diogorsergio)
 * Hardware Supported: Teensy LC
