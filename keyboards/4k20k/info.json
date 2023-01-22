@@ -1,12 +1,23 @@
 {
+    "keyboard_name": "4k20k",
+    "maintainer": "diogorsergio",
     "manufacturer": "diogorsergio",
-    "usb": {
-        "device_version": "1.0.0",
-        "pid": "0x6465",
-        "vid": "0xFEED"
+    "url": "https://www.diogosergio.com",
+    "processor": "MKL26Z64",
+    "bootloader": "halfkay",
+    "bootloader_instructions": "Enter the bootloader by using the small buttons on the PCB: press the RESET button while connected to QMK Toolbox.",
+    "debounce": 5,
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": false,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
     },
     "layouts": {
-        "LAYOUT_ortho_4x5": {
+        "LAYOUT": {
             "layout": [
                 { "matrix": [0, 0], "x": 0, "y": 0 },
                 { "matrix": [0, 1], "x": 1, "y": 0 },
@@ -30,5 +41,14 @@
                 { "matrix": [3, 4], "x": 4, "y": 3 }
             ]
         }
+    },
+    "matrix_pins": {
+        "cols": ["B3", "E30", "D4", "D2", "D3"],
+        "rows": ["C3", "C4", "C6", "C7"]
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x6465",
+        "vid": "0xFEED"
     }
 }
